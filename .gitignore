@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.log
+ffmpeg.zip
+ffmpeg-master-latest-win64-gpl/
+.env
+.env.*
+!.env.example

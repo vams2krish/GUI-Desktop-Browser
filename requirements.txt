@@ -1,0 +1,6 @@
+PyQt6>=6.0.0
+PyQt6-WebEngine>=6.0.0
+requests>=2.25.0
+yt-dlp>=2023.1.0
+streamlink>=6.0.0
+ffmpeg-python>=0.2.0
