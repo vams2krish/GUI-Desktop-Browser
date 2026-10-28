@@ -1,4 +1,4 @@
-# Desktop Browser
+# GUI Desktop Browser
 
 A Windows-oriented desktop web browser built with Python, PyQt6 and QtWebEngine, with tabbed browsing, automatic video discovery and integrated media downloads.
 
@@ -31,8 +31,8 @@ Support for an individual website, codec or stream depends on the installed depe
 ## Run from source
 
 ```powershell
-git clone https://github.com/vams2krish/Desktop-Browser.git
-cd Desktop-Browser
+git clone https://github.com/vams2krish/GUI-Desktop-Browser.git
+cd GUI-Desktop-Browser
 py -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
@@ -120,11 +120,12 @@ No prebuilt executable, FFmpeg distribution or release download is included in t
 
 For manual checks, launch the app, navigate to a page, open and close tabs, test discovery with media you control, and verify a small permitted download reaches the output directory. Python compilation passed for this publication. Application launch attempts exited before a screenshot could be captured in the publishing environment, including Python 3.11 and 3.14 attempts. Runtime behavior, external website downloads and the installer remain unverified. The image above is an overview illustration.
 
-Report reproducible bugs and feature requests in [GitHub Issues](https://github.com/vams2krish/Desktop-Browser/issues). Include the Python/Windows versions, dependency versions, reproduction steps and a sanitized error message.
+Report reproducible bugs and feature requests in [GitHub Issues](https://github.com/vams2krish/GUI-Desktop-Browser/issues). Include the Python/Windows versions, dependency versions, reproduction steps and a sanitized error message.
 
 ## Project status and licensing
 
-This repository publishes a clean source snapshot of the existing Simple-Browser project under the Desktop-Browser repository name. Generated binaries, build output, logs, bytecode and downloaded third-party archives are excluded.
+This repository publishes a clean source snapshot of the existing Simple-Browser project under the GUI-Desktop-Browser repository name. Generated binaries, build output, logs, bytecode and downloaded third-party archives are excluded.
 
 No project license file has been supplied. Do not assume an MIT or other open-source license from this repository's public visibility. Dependencies and any separately acquired FFmpeg binaries retain their respective licenses.
+
 
